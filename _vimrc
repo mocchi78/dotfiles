@@ -3,6 +3,7 @@ set number
 set nocompatible
 filetype off
 
+"Bundle setting
 set rtp+=~/dotfiles/vimfiles/vundle.git/
 call vundle#rc()
 Bundle 'Shougo/neocomplcache'
